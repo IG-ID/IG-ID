@@ -46,4 +46,3 @@ export async function searchPhotos(
     return { error: "Failed to fetch images. Please try again later." }
   }
 }
-

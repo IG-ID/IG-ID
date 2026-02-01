@@ -1,12 +1,15 @@
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
+import React from "react"
+import type { Metadata } from 'next'
+import { Geist, Geist_Mono } from 'next/font/google'
+import './globals.css'
 
-const inter = Inter({ subsets: ["latin"] })
+const geistSans = Geist({ subsets: ['latin'] })
+const geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "PhotoSearch - Unsplash Image Search",
-  description: "Search for high-quality photos from Unsplash",
+  title: 'PhotoSearch - Discover Beautiful Images',
+  description: 'Search and discover millions of stunning, free photos from Unsplash. Perfect for your projects and creative work.',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
     generator: 'v0.app'
 }
 
@@ -16,9 +19,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${geistSans.className} bg-background text-foreground antialiased`}>
+        {children}
+      </body>
     </html>
   )
 }
-

@@ -3,4 +3,3 @@ declare namespace NodeJS {
     UNSPLASH_ACCESS_KEY: string
   }
 }
-

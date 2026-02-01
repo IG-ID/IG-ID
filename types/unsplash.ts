@@ -40,4 +40,3 @@ export interface SearchFilters {
     | "blue"
   page?: number
 }
-

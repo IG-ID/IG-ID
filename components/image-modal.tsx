@@ -45,4 +45,3 @@ export function ImageModal({ image, onClose }: ImageModalProps) {
     </Dialog>
   )
 }
-
