@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @IG-ID
 - 👀 I’m interested in coding
+- I'm a UI/UX designer and frontend developer
 - 🌱 I’m currently learning fullstack programming 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me taiwoisrael30@gmail.com
